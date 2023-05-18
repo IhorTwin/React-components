@@ -1,5 +1,5 @@
 import Button from "../Button";
-import documentIcon from "../assets/document.svg";
+import documentIcon from "../assets/document.png";
 import "./DocumentList.scss";
 
 function DocumentList({ documents }: DocumentListProps) {
@@ -8,7 +8,7 @@ function DocumentList({ documents }: DocumentListProps) {
       <li className="document-list__item document" key={id}>
         <div className="document__content">
           <div className="document__icon" aria-hidden="true">
-            <img width={36} height={49} src={documentIcon} alt="" />
+            <img width={36} height={48} src={documentIcon} alt="" />
           </div>
           <div className="document__info">
             <strong id={`document-${id}`} className="document__title">
