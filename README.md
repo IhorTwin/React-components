@@ -1,4 +1,4 @@
-# Test task for airSlate by Ihor Blyzniuk
+## React-components example
 
 [Vite](https://vitejs.dev) tool was used to set the environment.
 
